@@ -29,17 +29,5 @@ public class homework_05 {
         System.out.println(true | false ^ false);
         System.out.println(true | false);
         System.out.println(true );
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
