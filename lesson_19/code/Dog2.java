@@ -14,6 +14,13 @@ public class Dog2 {
     private int maxJumpHeight;
     private int increaseByTraining = 10;
 
+    public Dog2(String dogName, int jumpHeight) { // конструктор
+        this.name = dogName;
+        this.jumpHeight = jumpHeight;
+        this.maxJumpHeight = jumpHeight * 2;
+
+    }
+
     public void setName(String string) {
         this.name = string;
     }
@@ -44,12 +51,7 @@ public class Dog2 {
 
 
 
-    public Dog2(String dogName, int jumpHeight) { // конструктор
-        this.name = dogName;
-        this.jumpHeight = jumpHeight;
-        this.maxJumpHeight = jumpHeight * 2;
 
-    }
     void whoAmI() {
         System.out.println("Я собака " + name + " и я умею прыгать в высоту " + jumpHeight + "см");
 
